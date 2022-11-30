@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;900&family=Ubuntu:wght@300;400;500&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav{
+    display: flex;
+    /* width: 100vw; */
+    height: 4rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243, 223, 185);
+    /* box-shadow: 0 10px 10px -4px rgb(0 0 0 / 40%); */
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.main{
+    width: 100%;
+    min-height: calc(100vh - 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -10;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    margin-top: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 5px 8px brown;
+}
+
+button:hover{
+    cursor: pointer;
+}
